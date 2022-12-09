@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #354358;
+}
+
+@media (min-width: 700px) {
+  .resume-col {
+    width: 80% !important;
+  }
+}
